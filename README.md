@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Maroc Pixel Studio – Creative Agency (Design, Video, Animation, SMMA, Web) in Morocco">
+  <title>Maroc Pixel Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2B3A67;
+      --secondary: #A56B46;
+      --accent: #E63946;
+      --bg: #F5F2EC;
+      --text: #111;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; font-family: 'Inter', sans-serif; }
+    body { background: var(--bg); color: var(--text); line-height:1.6; }
+    header { background: var(--primary); color: #fff; padding:2rem; text-align:center; }
+    header h1 { font-size:2.8rem; }
+    header p, header a { color:#D1D5DB; text-decoration: none; }
+    .services { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap:2rem; padding:3rem 1rem; max-width:1200px; margin:auto; }
+    .card { background:#fff; border-left:4px solid var(--secondary); padding:1.5rem; border-radius:8px; transition: transform .3s; }
+    .card:hover { transform: translateY(-8px); }
+    .card h3 { margin-bottom:1rem; color: var(--primary); }
+    .cta { text-align:center; margin:3rem 0; }
+    .cta a { background: var(--accent); color:#fff; padding:1rem 2rem; border-radius:4px; text-decoration:none; font-weight:600; transition: background .3s; }
+    footer { background: var(--primary); color:#D1D5DB; padding:2rem; font-size:.9rem; text-align:center; }
+    .social { margin-top: 1rem; }
+    .social a { color: #FFD700; margin: 0 0.5rem; text-decoration: none; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Maroc Pixel Studio</h1>
+    <p>+212619834893 | <a href="mailto:marocpixelstudio@gmail.com">marocpixelstudio@gmail.com</a></p>
+    <div class="social">
+      <a href="https://facebook.com/MarocPixelOfficial" target="_blank">Facebook</a> |
+      <a href="#">Instagram</a> |
+      <a href="#">YouTube</a> |
+      <a href="#">TikTok</a>
+    </div>
+  </header>
+
+  <section class="services">
+    <div class="card"><h3>Graphic Design</h3><p>Branding, logos, flyers—built on color psychology & visual hierarchy for maximum impact.</p></div>
+    <div class="card"><h3>Photo & Video</h3><p>Professional shoot & edit for ads, content, & storytelling—evoking emotion and capturing attention.</p></div>
+    <div class="card"><h3>Animation & 3D</h3><p>After Effects & 3D motion for dynamic intros, product demos, social ads.</p></div>
+    <div class="card"><h3>SMMA</h3><p>Social media strategies, content calendars, audience engagement, analytics, optimized for ROI.</p></div>
+    <div class="card"><h3>Website Design</h3><p>Responsive, conversion-focused websites using UX psychology and persuasive CTAs.</p></div>
+    <div class="card"><h3>Tools We Use</h3><p>Adobe Suite (Photoshop, Illustrator, After Effects, Premiere), Canva, Figma, and more—ensuring high quality, consistent, and scalable design across all platforms.</p></div>
+    <div class="card"><h3>Nationwide Freelancers</h3><p>We collaborate with skilled freelancers across Morocco to deliver fast, localized, and custom solutions for your business. Our team can work directly with your staff for seamless coordination.</p></div>
+  </section>
+
+  <div class="cta">
+    <a href="mailto:marocpixelstudio@gmail.com">Get a Free Quote</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Maroc Pixel Studio. Built with science & creativity.
+  </footer>
+</body>
+</html>
 
